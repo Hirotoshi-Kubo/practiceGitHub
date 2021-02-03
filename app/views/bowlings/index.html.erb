@@ -17,8 +17,8 @@
         <td><%= bowling.name %></td>
         <td><%= bowling.address %></td>
         <td><%= link_to '詳細', bowling %></td>
-        <td><%#= link_to 'Edit', edit_bowling_path(bowling) %></td>
-        <td><%#= link_to 'Destroy', bowling, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Edit', edit_bowling_path(bowling) %></td>
+        <td><%= link_to 'Destroy', bowling, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
